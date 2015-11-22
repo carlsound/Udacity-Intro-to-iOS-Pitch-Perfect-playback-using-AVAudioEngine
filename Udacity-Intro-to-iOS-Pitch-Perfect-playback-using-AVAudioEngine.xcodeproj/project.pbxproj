@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE614AC1C013AC600FCEA1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE614AB1C013AC600FCEA1D /* AppDelegate.swift */; };
+		CEE614AE1C013AC600FCEA1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE614AD1C013AC600FCEA1D /* ViewController.swift */; };
+		CEE614B11C013AC700FCEA1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE614AF1C013AC700FCEA1D /* Main.storyboard */; };
+		CEE614B31C013AC700FCEA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE614B21C013AC700FCEA1D /* Assets.xcassets */; };
+		CEE614B61C013AC700FCEA1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE614B41C013AC700FCEA1D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEE614A81C013AC600FCEA1D /* Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE614AB1C013AC600FCEA1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE614AD1C013AC600FCEA1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE614B01C013AC700FCEA1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE614B21C013AC700FCEA1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE614B51C013AC700FCEA1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE614B71C013AC700FCEA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE614A51C013AC600FCEA1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE6149F1C013AC600FCEA1D = {
+			isa = PBXGroup;
+			children = (
+				CEE614AA1C013AC600FCEA1D /* Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine */,
+				CEE614A91C013AC600FCEA1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE614A91C013AC600FCEA1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE614A81C013AC600FCEA1D /* Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE614AA1C013AC600FCEA1D /* Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				CEE614AB1C013AC600FCEA1D /* AppDelegate.swift */,
+				CEE614AD1C013AC600FCEA1D /* ViewController.swift */,
+				CEE614AF1C013AC700FCEA1D /* Main.storyboard */,
+				CEE614B21C013AC700FCEA1D /* Assets.xcassets */,
+				CEE614B41C013AC700FCEA1D /* LaunchScreen.storyboard */,
+				CEE614B71C013AC700FCEA1D /* Info.plist */,
+			);
+			path = "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE614A71C013AC600FCEA1D /* Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE614BA1C013AC700FCEA1D /* Build configuration list for PBXNativeTarget "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine" */;
+			buildPhases = (
+				CEE614A41C013AC600FCEA1D /* Sources */,
+				CEE614A51C013AC600FCEA1D /* Frameworks */,
+				CEE614A61C013AC600FCEA1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine";
+			productName = "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine";
+			productReference = CEE614A81C013AC600FCEA1D /* Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE614A01C013AC600FCEA1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "John Carlson";
+				TargetAttributes = {
+					CEE614A71C013AC600FCEA1D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = P8SEUM7VKM;
+					};
+				};
+			};
+			buildConfigurationList = CEE614A31C013AC600FCEA1D /* Build configuration list for PBXProject "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE6149F1C013AC600FCEA1D;
+			productRefGroup = CEE614A91C013AC600FCEA1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE614A71C013AC600FCEA1D /* Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE614A61C013AC600FCEA1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE614B61C013AC700FCEA1D /* LaunchScreen.storyboard in Resources */,
+				CEE614B31C013AC700FCEA1D /* Assets.xcassets in Resources */,
+				CEE614B11C013AC700FCEA1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE614A41C013AC600FCEA1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE614AE1C013AC600FCEA1D /* ViewController.swift in Sources */,
+				CEE614AC1C013AC600FCEA1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE614AF1C013AC700FCEA1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE614B01C013AC700FCEA1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE614B41C013AC700FCEA1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE614B51C013AC700FCEA1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE614B81C013AC700FCEA1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE614B91C013AC700FCEA1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE614BB1C013AC700FCEA1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carlson.john.Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEE614BC1C013AC700FCEA1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carlson.john.Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE614A31C013AC600FCEA1D /* Build configuration list for PBXProject "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE614B81C013AC700FCEA1D /* Debug */,
+				CEE614B91C013AC700FCEA1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE614BA1C013AC700FCEA1D /* Build configuration list for PBXNativeTarget "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE614BB1C013AC700FCEA1D /* Debug */,
+				CEE614BC1C013AC700FCEA1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE614A01C013AC600FCEA1D /* Project object */;
+}
