@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA7B3241C01A0AA00F5E4D1 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEA7B3231C01A0AA00F5E4D1 /* movie_quote.mp3 */; };
 		CEE614AC1C013AC600FCEA1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE614AB1C013AC600FCEA1D /* AppDelegate.swift */; };
 		CEE614AE1C013AC600FCEA1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE614AD1C013AC600FCEA1D /* ViewController.swift */; };
 		CEE614B11C013AC700FCEA1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE614AF1C013AC700FCEA1D /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEA7B3231C01A0AA00F5E4D1 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 		CEE614A81C013AC600FCEA1D /* Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE614AB1C013AC600FCEA1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE614AD1C013AC600FCEA1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		CEE614AA1C013AC600FCEA1D /* Udacity-Intro-to-iOS-Pitch-Perfect-playback-using-AVAudioEngine */ = {
 			isa = PBXGroup;
 			children = (
+				CEA7B3231C01A0AA00F5E4D1 /* movie_quote.mp3 */,
 				CEE614AB1C013AC600FCEA1D /* AppDelegate.swift */,
 				CEE614AD1C013AC600FCEA1D /* ViewController.swift */,
 				CEE614AF1C013AC700FCEA1D /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				CEE614B61C013AC700FCEA1D /* LaunchScreen.storyboard in Resources */,
 				CEE614B31C013AC700FCEA1D /* Assets.xcassets in Resources */,
+				CEA7B3241C01A0AA00F5E4D1 /* movie_quote.mp3 in Resources */,
 				CEE614B11C013AC700FCEA1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CEE614BC1C013AC700FCEA1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

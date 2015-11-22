@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,45 +18,81 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vNe-L2-3mn">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9n-cY-kH2" userLabel="rabbitButton">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button1"/>
+                                <state key="normal" image="rabbit"/>
+                                <connections>
+                                    <action selector="playbackFast:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F6T-sq-xxf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vNe-L2-3mn" userLabel="snailButton">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" image="snail"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="102" y="184" width="54" height="30"/>
+                                    <rect key="frame" x="61" y="49" width="100" height="100"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9n-cY-kH2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3S-MK-xDU" userLabel="snailButton">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button2"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="271" y="184" width="58" height="30"/>
-                                </variation>
+                                <state key="normal" image="snail"/>
+                                <connections>
+                                    <action selector="playbackSlow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="geL-K5-SqY"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHk-wp-dJR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHk-wp-dJR" userLabel="stopButton">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button3"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="191" y="467" width="58" height="30"/>
-                                </variation>
+                                <state key="normal" image="stop"/>
+                                <connections>
+                                    <action selector="stopPlayback:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2fE-ws-3C1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U3S-MK-xDU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="41" id="2P2-Ee-cbR"/>
+                            <constraint firstItem="XHk-wp-dJR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HAd-wV-KvR"/>
+                            <constraint firstItem="m9n-cY-kH2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="ZoP-Ao-EX6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XHk-wp-dJR" secondAttribute="bottom" constant="96" id="eyd-sM-7yX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m9n-cY-kH2" secondAttribute="trailing" constant="16" id="mCn-by-ARp">
+                                <variation key="widthClass=compact" constant="41"/>
+                            </constraint>
+                            <constraint firstItem="U3S-MK-xDU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="rV4-C3-g3V"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="vNe-L2-3mn"/>
                                 <exclude reference="m9n-cY-kH2"/>
+                                <exclude reference="vNe-L2-3mn"/>
+                                <exclude reference="U3S-MK-xDU"/>
                                 <exclude reference="XHk-wp-dJR"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2P2-Ee-cbR"/>
+                                <exclude reference="rV4-C3-g3V"/>
+                                <exclude reference="ZoP-Ao-EX6"/>
+                                <exclude reference="mCn-by-ARp"/>
+                                <exclude reference="HAd-wV-KvR"/>
+                                <exclude reference="eyd-sM-7yX"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="vNe-L2-3mn"/>
                                 <include reference="m9n-cY-kH2"/>
+                                <include reference="vNe-L2-3mn"/>
+                                <include reference="U3S-MK-xDU"/>
                                 <include reference="XHk-wp-dJR"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2P2-Ee-cbR"/>
+                                <include reference="rV4-C3-g3V"/>
+                                <include reference="ZoP-Ao-EX6"/>
+                                <include reference="mCn-by-ARp"/>
+                                <include reference="HAd-wV-KvR"/>
+                                <include reference="eyd-sM-7yX"/>
                             </mask>
                         </variation>
                     </view>
@@ -65,4 +102,9 @@
             <point key="canvasLocation" x="367.5" y="280"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="rabbit" width="100" height="100"/>
+        <image name="snail" width="100" height="100"/>
+        <image name="stop" width="50" height="50"/>
+    </resources>
 </document>
